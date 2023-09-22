@@ -3,12 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>heading</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/icon font.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    git config --global user.email "you@example.com" git config --global
-    user.name "Your Name"
+    <title>Banking Site</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header_sub">
+        <div class="logo">
+          <img src="images/favicon.png" alt="Logo" class="logo_image" />
+          <p class="logo_name">OakCrown Bank</p>
+        </div>
+
+        <nav class="nav_bar">
+          <div class="nav_box">
+            <ul class="nav_items">
+              <li class="nav_list">Home</li>
+              <li class="nav_list">Services</li>
+              <li class="nav_list">About us</li>
+              <li class="nav_list">contact</li>
+            </ul>
+
+            <div class="button-box">
+              <button class="button">
+                <a href="#" class="btn btn-white">Sign In</a>
+              </button>
+              <button class="button">
+                <a href="#" class="btn bton">Sign up</a>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section-home">
+        <div class="row">
+          <div class="bg-video">
+            <video class="bg-video_content" autoplay muted loop>
+              <source src="images/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-1-of-2">
+            <div class="heading">
+              <h1 class="heading-primary">
+                We're on a mission to <br />be Nigeria's largest business bank
+              </h1>
+              <p class="paragraph">
+                we know different people have their different idea when it comes
+                to banking, whether your looking to build, buy or expand your
+                business, let our team at Oakcrown bank be your guide. Still
+                Putting smiles on the face of our beloved customers, through our
+                long years of existence and experience.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="image_box">
+              <img
+                src="images/accountants.jpg"
+                alt="bank image"
+                class="col_image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
